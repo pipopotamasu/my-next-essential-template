@@ -1,8 +1,8 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 export default function ListItem() {
-  const router = useRouter()
+  const router = useRouter();
   const { id } = router.query;
 
   return (
@@ -14,5 +14,5 @@ export default function ListItem() {
         This is dummy item {id}.
       </p>
     </>
-  )
+  );
 }
