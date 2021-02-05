@@ -52,5 +52,6 @@ module.exports = {
         "withinDescribe": "it"
       }
     ],
+    "jest/expect-expect": "off"
   }
 }
